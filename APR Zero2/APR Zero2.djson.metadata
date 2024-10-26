@@ -1,17 +1,17 @@
 {
   "SimHubVersion": "9.4.9",
   "Category": null,
-  "Title": null,
+  "Title": "APR Zero 2",
   "Description": null,
-  "Author": null,
-  "ScreenCount": 1.0,
+  "Author": "Bruce McLeod",
+  "ScreenCount": 4.0,
   "InGameScreensIndexs": [
-    0
+    3
   ],
   "IdleScreensIndexs": [
     0
   ],
-  "MainPreviewIndex": 0,
+  "MainPreviewIndex": 3,
   "IsOverlay": false,
   "Width": 800.0,
   "Height": 480.0,

@@ -74,6 +74,12 @@
           "VerticalAlignment": 1,
           "TextMask": "0000000000",
           "BackgroundColor": "#FFFFFF70",
+          "BorderStyle": {
+            "BorderTop": 1,
+            "BorderBottom": 1,
+            "BorderLeft": 1,
+            "BorderRight": 1
+          },
           "Height": 100.0,
           "Left": 0.0,
           "Top": 0.0,
@@ -305,57 +311,46 @@
           "MinimumRefreshIntervalMS": 0.0
         },
         {
-          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.Layer, SimHub.Plugins",
-          "Group": true,
-          "Repetitions": 0,
-          "Childrens": [
-            {
-              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
-              "IsRectangleItem": true,
-              "BackgroundColor": "#FF000000",
-              "Height": 100.0,
-              "Left": 230.0,
-              "Top": 110.0,
-              "Visible": true,
-              "Width": 300.0,
-              "Name": "RectangleItem",
-              "RenderingSkip": 0,
-              "MinimumRefreshIntervalMS": 0.0
-            },
-            {
-              "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
-              "IsTextItem": true,
-              "Font": "Rubik",
-              "FontWeight": "Bold",
-              "FontSize": 80.0,
-              "Text": "N",
-              "TextColor": "#FFFFFFFF",
-              "HorizontalAlignment": 1,
-              "VerticalAlignment": 1,
-              "BackgroundColor": "#FF000000",
-              "Height": 98.0,
-              "Left": 300.0,
-              "Top": 109.0,
-              "Visible": true,
-              "Width": 200.0,
-              "Name": "Speed",
-              "RenderingSkip": 0,
-              "MinimumRefreshIntervalMS": 0.0,
-              "Bindings": {
-                "Text": {
-                  "FormatString": "0",
-                  "Formula": {
-                    "Expression": "[SpeedKmh]"
-                  },
-                  "Mode": 2
-                }
-              }
-            }
-          ],
+          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.RectangleItem, SimHub.Plugins",
+          "IsRectangleItem": true,
+          "BackgroundColor": "#FF000000",
+          "Height": 100.0,
+          "Left": 230.0,
+          "Top": 110.0,
           "Visible": true,
-          "Name": "Layer",
+          "Width": 300.0,
+          "Name": "RectangleItem",
           "RenderingSkip": 0,
           "MinimumRefreshIntervalMS": 0.0
+        },
+        {
+          "$type": "SimHub.Plugins.OutputPlugins.GraphicalDash.Models.TextItem, SimHub.Plugins",
+          "IsTextItem": true,
+          "Font": "Rubik",
+          "FontWeight": "Bold",
+          "FontSize": 80.0,
+          "Text": "N",
+          "TextColor": "#FFFFFFFF",
+          "HorizontalAlignment": 1,
+          "VerticalAlignment": 1,
+          "BackgroundColor": "#FF000000",
+          "Height": 98.0,
+          "Left": 300.0,
+          "Top": 109.0,
+          "Visible": true,
+          "Width": 200.0,
+          "Name": "Speed",
+          "RenderingSkip": 0,
+          "MinimumRefreshIntervalMS": 0.0,
+          "Bindings": {
+            "Text": {
+              "FormatString": "0",
+              "Formula": {
+                "Expression": "[SpeedKmh]"
+              },
+              "Mode": 2
+            }
+          }
         }
       ],
       "MinimumRefreshIntervalMS": 0.0
