@@ -4,14 +4,19 @@
   "Title": "APR Zero 2",
   "Description": null,
   "Author": "Bruce McLeod",
-  "ScreenCount": 4.0,
+  "ScreenCount": 9.0,
   "InGameScreensIndexs": [
-    3
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
   ],
   "IdleScreensIndexs": [
-    0
+    8
   ],
-  "MainPreviewIndex": 3,
+  "MainPreviewIndex": 2,
   "IsOverlay": false,
   "Width": 800.0,
   "Height": 480.0,
